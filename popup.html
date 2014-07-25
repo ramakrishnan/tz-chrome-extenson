@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <title>Check time</title>
+    <head>
+        <script src="jquery-1.11.1.js"></script>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places"></script>
+        <script type="text/javascript" src="lib.js"></script>
+        <link rel="stylesheet" type="text/css" href="tz.css">
+    </head>
+    <body>
+        <h1>Find world time.</h1>
+        <input type="text" id="place-autocomplete" size="60">
+        <button id="add-place">Add to favorite</button>
+        <div class="clock world">
+          <span class="title">World Time</span>
+          <span class="week"></span>
+          <span class="month"></span>
+          <span class="day"></span>
+          <span class="year"></span>
+          <span class="time"></span>
+          <span class="zone"></span>
+        </div>
+        <div class="clock local">
+          <span class="title">Local Time</span>
+          <span class="time"></span>
+        </div>
+    </body>
+</html>
+
+
